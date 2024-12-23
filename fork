@@ -1,0 +1,33 @@
+9-FORK RESPOSITORY
+ 
+: Open github
+: open repository
+: open any repository
+: to open another repository copy my link and change the username syed-rahmannnn
+: go to repository
+: give exp lab
+: give fork
+: create fork
+: NEXT TO DO CLONE
+: GO TO GIT BASH
+: AND GIVE COMMAND " git clone https://github.com/Yashvanthika/EXP-LAB.git"
+: Next give command "cd EXP-LAB"
+: and to create a new branch give command "git checkout -b pull"
+: And to modify
+: go to files
+: and open repository name
+: go do document
+: and modify symbols
+: after modifying
+: type command "git status"
+: it will show modified
+: after status we want to give " git add ."
+: next to give commit and push
+: to commit "git commit -m"changes"
+: to push " git push origin pull "
+: now we have to go to github
+: pull req will come
+: click pull request and confirm
+: mail will go
+: they will merge
+: success
