@@ -1,0 +1,34 @@
+: Open the docker
+: Open git bash
+: mkdir static-website
+: cd static-website
+: nano index.html
+: after this one window will pop up
+: <!DOCTYPE html>
+<html>
+<head>
+    <title>My Static Website</title>
+</head>
+<body>
+    <h1>Welcome to My Universe!</h1>
+    <p>I like Yashhuu &hearts;</p>
+</body>
+</html>
+: paste this
+: give control x
+: give y
+: again in git bash
+: type
+: nano Dockerfile
+: after this one window will pop up
+: FROM nginx:latest
+COPY index.html /usr/share/nginx/html/
+EXPOSE 80
+: after git bash will open
+: docker build -t my-static-website .
+: type this
+: many lines will come wait until it ends
+: docker images
+: give this
+: docker run -d -p 8080:80 --name static-website-container my-static-website
+: docker ps
